@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./src"],
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "module": "EsNext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "moduleResolution": "NodeNext",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "strict": true,
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types",
+      "./node_modules/@rtvision/types/dist"
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@test/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "test/**/*", "*.ts", "*.cjs", "*.mjs", "*.cjs"]
+}
