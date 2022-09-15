@@ -8,27 +8,27 @@ export enum AdPlacement {
 
 @Entity()
 export default class Ad {
-  @PrimaryKey()
+  @PrimaryKey({ type: "number" })
   public id!: number;
 
-  @Property()
+  @Property({ type: "string", nullable: true })
   public title?: string;
 
-  @Property()
+  @Property({ type: "string", nullable: true })
   public url?: string;
 
-  @Property()
+  @Property({ type: "string", nullable: true })
   public imgSmall?: string;
 
-  @Property()
+  @Property({ type: "string", nullable: true })
   public imgMedium?: string;
 
-  @Property()
+  @Property({ type: "string", nullable: true })
   public imgLarge?: string;
 
-  @Property()
+  @Property({ type: "boolean" })
   public active = true;
 
-  @Enum()
+  @Enum({ type: "AdPlacement" })
   public placement = AdPlacement.LEFT;
 }

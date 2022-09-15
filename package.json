@@ -24,11 +24,11 @@
     "@fastify/type-provider-json-schema-to-ts": "^2.1.1",
     "@mikro-orm/core": "^5.4.2",
     "@mikro-orm/postgresql": "^5.4.2",
-    "@mikro-orm/reflection": "^5.4.2",
     "@types/node": "^18.7.18",
     "dotenv": "^16.0.2",
     "fastify": "^4.5.3",
     "json-schema-to-ts": "^2.5.5",
+    "reflect-metadata": "^0.1.13",
     "tslib": "^2.4.0",
     "vite": "^3.0.9",
     "vite-plugin-node": "^1.0.0"
