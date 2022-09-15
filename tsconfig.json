@@ -15,6 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
+    "declaration": true,
     "jsx": "preserve",
     "strict": true,
     "typeRoots": [
